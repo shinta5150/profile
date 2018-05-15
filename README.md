@@ -5,6 +5,13 @@
 A stubbed implementation to show how a Profile API can be served as a SpringBoot API.
 Implementation would use event sourcing to update the CRM.
 
+To clone the repo and build:
+```
+git clone https://github.com/shinta5150/profile.git
+cd profile
+mvn clean
+mvn install
+```
 To run on the command line:
 ```
 mvn spring-boot:run
